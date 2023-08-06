@@ -284,3 +284,66 @@ img {
   font-weight: 400;
   line-height: normal;
 }
+
+/* -----------------MAKES-------------------- */
+.makes {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.makes-container {
+  display: flex;
+}
+
+.makes-text-wrapper {
+  margin-right: 30px;
+}
+
+.makes-title {
+  margin-bottom: 20px;
+  color: var(--font-color-main);
+  font-family: var(--font-second);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.makes-title-span {
+  color: var(--orange);
+  font-family: var(--font-second);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.makes-subtitle {
+  margin-bottom: 40px;
+  color: var(--font-color-main);
+  font-weight: 500;
+  line-height: normal;
+}
+.makes-list {
+}
+.makes-item {
+  gap: 20px;
+}
+.makes-text {
+  color: var(--font-color-main);
+  font-weight: 400;
+  line-height: normal;
+}
+.makes-btn {
+  min-width: 270px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--orange);
+  color: var(--main-bg);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.makes-img {
+}

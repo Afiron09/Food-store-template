@@ -92,6 +92,10 @@
           <ul class="offers-list">
             <li class="offers-item">
               <img
+                srcset="
+                  ./img/pepperoni-pizza.jpg    1x,
+                  ./img/pepperoni-pizza-2x.jpg 2x
+                "
                 src="./img/pepperoni-pizza.jpg"
                 alt="Pepperoni Pizza"
                 width="270"
@@ -108,6 +112,10 @@
             </li>
             <li class="offers-item">
               <img
+                srcset="
+                  ./img/baked-pancakes.jpg    1x,
+                  ./img/baked-pancakes-2x.jpg 2x
+                "
                 src="./img/baked-pancakes.jpg"
                 alt="Baked Pancakes"
                 width="270"
@@ -124,6 +132,7 @@
             </li>
             <li class="offers-item">
               <img
+                srcset="./img/avocado.jpg 1x, ./img/avocado-2x.jpg 2x"
                 src="./img/avocado.jpg"
                 alt="Avocado"
                 width="270"
@@ -140,6 +149,10 @@
             </li>
             <li class="offers-item">
               <img
+                srcset="
+                  ./img/bunch-of-orange.jpg    1x,
+                  ./img/bunch-of-orange-2x.jpg 2x
+                "
                 src="./img/bunch-of-orange.jpg"
                 alt="Bunch of Orange"
                 width="270"
@@ -222,35 +235,53 @@
       </section>
 
       <section class="makes">
-        <div class="container">
-          <h2><span>Who Makes </span>Your Food?</h2>
-          <p>
-            Our mission is to help grow the local food ecosystem in BC and
-            across Canada. Why?
-          </p>
-          <ul>
-            <li>
-              <p>
-                Because it connects us to the land we live on, and to the people
-                who live here.
-              </p>
-            </li>
-            <li>
-              <p>
-                Because it`s more meaningful to cook and eat something made by a
-                person nearby than by some distant corporation
-              </p>
-            </li>
-            <li>
-              <p>
-                Because good local food makes our corner of the world a better
-                place to live
-              </p>
-            </li>
-            <li><p>Because it supports local jobs</p></li>
-            <li><p>Because it makes more sense for the environment</p></li>
-          </ul>
-          <button type="button">Discover our Producers</button>
+        <div class="container makes-container">
+          <div class="makes-text-wrapper">
+            <h2 class="makes-title">
+              <span class="makes-title-span">Who Makes </span>Your Food?
+            </h2>
+            <p class="makes-subtitle">
+              Our mission is to help grow the local food ecosystem in BC and
+              across Canada. Why?
+            </p>
+            <ul class="makes-list">
+              <li class="makes-item">
+                <p class="makes-text">
+                  Because it connects us to the land we live on, and to the
+                  people who live here.
+                </p>
+              </li>
+              <li class="makes-item">
+                <p class="makes-text">
+                  Because it`s more meaningful to cook and eat something made by
+                  a person nearby than by some distant corporation
+                </p>
+              </li>
+              <li class="makes-item">
+                <p class="makes-text">
+                  Because good local food makes our corner of the world a better
+                  place to live
+                </p>
+              </li>
+              <li class="makes-item">
+                <p class="makes-text">Because it supports local jobs</p>
+              </li>
+              <li class="makes-item">
+                <p class="makes-text">
+                  Because it makes more sense for the environment
+                </p>
+              </li>
+            </ul>
+            <button class="makes-btn" type="button">
+              Discover our Producers
+            </button>
+          </div>
+          <img
+            class="makes-img"
+            srcset="./img/grapes.jpg 1x, ./img/grapes-2x.jpg 2x"
+            src="./img/grapes.jpg"
+            alt="hand-picked grapes"
+          />
         </div>
       </section>
     </main>
