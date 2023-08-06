@@ -323,10 +323,15 @@ img {
   line-height: normal;
 }
 .makes-list {
+  margin-bottom: 30px;
 }
 .makes-item {
-  gap: 20px;
 }
+
+.makes-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 .makes-text {
   color: var(--font-color-main);
   font-weight: 400;
