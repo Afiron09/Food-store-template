@@ -303,7 +303,7 @@ img {
 .makes-title {
   margin-bottom: 20px;
   color: var(--font-color-main);
-  font-family: var(--font-second);
+  font-family: Cormorant, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -311,7 +311,7 @@ img {
 }
 .makes-title-span {
   color: var(--orange);
-  font-family: var(--font-second);
+  font-family: Cormorant, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -320,6 +320,9 @@ img {
 .makes-subtitle {
   margin-bottom: 40px;
   color: var(--font-color-main);
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
@@ -335,6 +338,9 @@ img {
 
 .makes-text {
   color: var(--font-color-main);
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
