@@ -293,6 +293,7 @@ img {
 
 .makes-container {
   display: flex;
+  max-height: 487px;
 }
 
 .makes-text-wrapper {
@@ -344,7 +345,7 @@ img {
   border-radius: 5px;
   background-color: var(--orange);
   color: var(--main-bg);
-  font-family: Poppins;
+  font-family: var(--font-prime);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
